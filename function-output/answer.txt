@@ -1,0 +1,154 @@
+演習問題１
+番号 １、２、４、５
+
+演習問題２
+puts "DIVE INTO CODE"
+
+puts "私は受講生です"
+
+age = 30
+puts "#{age}歳です" 
+
+演習問題３
+１ +
+２ -
+３ *
+４ /
+５ %
+
+演習問題４
+１ <
+２ >
+３ ==
+４ >
+５ <
+
+演習問題５
+１ false
+２ true
+３ true
+４ 比較できない
+５ true
+６ false
+７ true
+８ false
+９ 比較できない
+１０ false
+
+演習問題６
+name = "山田太郎"
+age = 18
+
+puts name
+puts age
+
+演習問題７
+name = "山田太郎"
+age = 18
+
+puts "私は#{name}と言います。年齢は#{age}です。"
+
+演習問題８−１
+season = ["春","夏","秋"]
+
+演習問題８−２
+season << "冬"
+
+演習問題８−３
+puts season[2]
+
+演習問題９−１
+house = {:price => "2000万", :location => "東京都", :size => "100坪"}
+
+演習問題９−２
+puts house[:location]
+
+演習問題１０
+ver1 = house[1][:location]
+puts "1,#{ver1}"
+
+ver2 = house[0][:size]
+puts "2,#{ver2}"
+
+ver3_1 = house[2][:price]
+ver3_2 = house[2][:size]
+puts "3,#{ver3_1},#{ver3_2}"
+
+演習１１−１
+num = 30
+if num >= 50
+  puts "50以上だよ"
+else
+  puts "50未満だよ"
+end
+
+演習１１−２
+num = 30
+if num == 30
+  puts "30ジャストだよ"
+elsif num < 50
+  puts "50未満だよ"
+else
+  puts "50以上だよ"
+end
+
+演習問題１２
+num = 30
+target = num % 2
+
+case true
+when target == 0
+  puts "#{num}は偶数"
+when target != 0
+  puts "#{num}は奇数"
+end
+
+演習問題１３
+i = 0
+while i < 10 
+  puts "おはよう"
+  i += 1
+end
+
+演習問題１４
+for i in 0...10 do
+  puts "こんにちは"
+end
+
+演習問題１５
+10.times do
+  puts "こんにちは"
+end
+
+演習問題１６
+(1..10).each do |i|
+  puts i
+end
+
+演習問題１７−５
+def addition(x,y,z)
+  return (x+y+z) / 3
+end
+
+puts addition(2,3,7)
+
+演習問題１８
+def division(x,y)
+  return x / y
+end
+
+puts division(10,5)
+
+演習問題１９
+エラーです
+
+演習問題２０
+def doing(date,place,food)
+  return "#{date}は#{place}で#{food}を食べる"
+end
+
+puts doing("今日","渋谷","カレー")
+puts doing("明日","池袋","オムライス")
+
+
+
